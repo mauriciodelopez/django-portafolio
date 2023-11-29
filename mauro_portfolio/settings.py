@@ -27,7 +27,9 @@ SECRET_KEY = 'django-insecure-_i_06=4p=f=qf&rbd_4)hq-tjt=a#z_b3-9ea)(*2lt6c2u6zq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['*']
+
+#['.vercel.app']
 
 
 # Application definition
@@ -81,8 +83,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-        'USER' : "gabriel",
-        'PASSWORD': "Alcibiades2023",
+        #'USER' : "gabriel",
+        #'PASSWORD': "Alcibiades2023",
     }
 }
 
